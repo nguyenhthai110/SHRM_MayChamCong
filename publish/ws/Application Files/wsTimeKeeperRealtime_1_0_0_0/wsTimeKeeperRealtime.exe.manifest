@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wsTimeKeeperRealtime.exe" version="1.0.0.0" publicKeyToken="e39ed713e1392ef7" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wsTimeKeeperRealtime" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="wsTimeKeeperRealtime.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxFKREALSVRLib.dll" size="7168">
+      <assemblyIdentity name="AxFKREALSVRLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lFUMJFn7ls2P+3S79zvwyjp8D2/bMkCkjGimZV80nAk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.FKATTENDOCXLib.DLL" size="32768">
+      <assemblyIdentity name="AxInterop.FKATTENDOCXLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CZ6+xKhmeCipfwA+0AF4qbhm/ajp5WApLjr+n+WFazk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataLinq.dll" size="68096">
+      <assemblyIdentity name="DataLinq" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qjOJg0Ro5/Iv07tkAKv+IndkAtQ/cYeWY2kXTvhTR0I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FKREALSVRLib.dll" size="8192">
+      <assemblyIdentity name="FKREALSVRLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/DI90EE92VpsZPTuWdOOKrG4XZ6Sm6Xe4/kIPQnXwZg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.zkemkeeper.dll" size="52224">
+      <assemblyIdentity name="Interop.zkemkeeper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gd81Xpe4vh87qeIS+JD+z3gmuYSF1/sk6vlDygdYOHo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="POSServices.classes.dll" size="20480">
+      <assemblyIdentity name="POSServices.classes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1apOM8kYqB5bI864qH0pPwI95RSPFbYj8PyFOONItg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wsTimeKeeperRealtime.exe" size="63976">
+      <assemblyIdentity name="wsTimeKeeperRealtime" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p7V7MWHNYWsN504o6dO36PHogXnhtg62eMwtOzWSW7Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DLL\AxFKREALSVRLib.dll" size="7168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lFUMJFn7ls2P+3S79zvwyjp8D2/bMkCkjGimZV80nAk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLL\AxInterop.FKATTENDOCXLib.DLL" size="32768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CZ6+xKhmeCipfwA+0AF4qbhm/ajp5WApLjr+n+WFazk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLL\FKREALSVRLib.dll" size="8192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/DI90EE92VpsZPTuWdOOKrG4XZ6Sm6Xe4/kIPQnXwZg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DLL\POSServices.classes.dll" size="20480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z1apOM8kYqB5bI864qH0pPwI95RSPFbYj8PyFOONItg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wsTimeKeeperRealtime.exe.config" size="1586">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>86nKxHiFRAhvIBtXu++FmaDq7idpID7fCNvhdagMX1U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-0P03M3P\ThaiNH" issuerKeyHash="0950a0004480e9baa17db5538eb8d4e6556332bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>o1/uNWYz6IU1cULPb2yq4pyc6dddQyi0WYyqMol6k6E=</DigestValue></Reference></SignedInfo><SignatureValue>Heb4VuaQoueViHma3uGIjoj026XaThn8Cnev2Y40B2+Jcv+fFapzD8I9YcMb6D7tQ5gspr8UUeoGFsOmZ8dkWDeZfedN2MUh997cPjwxqmDG0tfJWi4i2kOfvI22H3mcprQ42O+e7iFGza8bzBRykxINV9b2uWoQYyTe3qYDX5M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mV0sWqUt6O3Cfi8NGrQKuZ371GunuUPTvqN7wny06EdUFWtiK3gzzm6DhktwknvAaxxz/QgleaA/Qrz3Wq6pzun60gae2siT2nCdKXPr34V5nJ7OYEEetPxV/Whz40u3s2wcj6vJZjkITOL3f/1HWw76gMXK0rF69hCx4ybZzOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a1937a8932aa8c59b428435dd7e99c9ce2aa6c6fcf42713585e8336635ee5fa3" Description="" Url=""><as:assemblyIdentity name="wsTimeKeeperRealtime.exe" version="1.0.0.0" publicKeyToken="e39ed713e1392ef7" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-0P03M3P\ThaiNH</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+OEIJqZB2ppz3BRAlb2xdYn+kb7zpDdWiR2wth+8SJE=</DigestValue></Reference></SignedInfo><SignatureValue>Bf+ygVwIoxkKX6ZmQ3zXlN/ZIV/DgGhilmUl4Rv4/dBxMeLpyZgr73M6/gWOaGHgjTNoaxt2/Mu4SCGtBuFlhPtkWSI0jzNixR2kzsVQqmqbE/Mjf7yfvgphoiC4KEIC43srMkPiEF0sqYM50fMlRjF6F0RF5lvaa6IXz73tDWM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mV0sWqUt6O3Cfi8NGrQKuZ371GunuUPTvqN7wny06EdUFWtiK3gzzm6DhktwknvAaxxz/QgleaA/Qrz3Wq6pzun60gae2siT2nCdKXPr34V5nJ7OYEEetPxV/Whz40u3s2wcj6vJZjkITOL3f/1HWw76gMXK0rF69hCx4ybZzOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQI3sLe0svLbRFoHArfIF8ljANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADAAUAAwADMATQAzAFAAXABUAGgAYQBpAE4ASDAeFw0xOTExMjYwMzIxMjFaFw0yMDExMjUwOTIxMjFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMABQADAAMwBNADMAUABcAFQAaABhAGkATgBIMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZXSxapS3o7cJ+Lw0atAq5nfvUa6e5Q9O+o3vCfLToR1QVa2IreDPOboOGS3CSe8BrHHP9CCV5oD9CvPdarqnO6frSBp7ayJPacJ0pc+vfhXmcns5gQR60/FX9aHPjS7ezbByPq8lmOQhM4vd//UdbDvqAxcrSsXr2ELHjJtnM5QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIQLHXXNpuxAxb/DFL+vcBNh23ooHSq5I0zgQIr9fzgg+1QqndpyP9VN58r5Utwp5nuaCgy9G6KQE79gV9cla7eEgH7Epy5nUCLGg8C0kblYHu0r6LQ32d7QtCLcEn+Pzsuu3+H6MWjCu7O5JIPs/OXP7AQS1iEBgoJiCd+Ju/c7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
